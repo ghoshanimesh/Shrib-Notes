@@ -1,0 +1,22 @@
+<div class="container padding-vertical-editor is-fluid">
+  <div class="columns">
+    <div class="column is-three-quarters">
+      <div [froalaEditor]="options" [(froalaModel)]="editorContent"></div>
+    </div>
+    <div class="column">
+      <div class="container">
+        <article class="panel is-link">
+          <p class="panel-heading recent-notes-text has-text-centered">
+            Recent Notes
+          </p>
+          <a class="panel-block is-active" *ngFor="let noteLink of recentNotesLinks">
+            <span class="panel-icon">
+              <i class="fas fa-sticky-note" aria-hidden="true"></i>
+            </span>
+            {{noteLink.url_id}}
+          </a>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

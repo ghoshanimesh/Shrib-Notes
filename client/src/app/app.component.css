@@ -1,0 +1,22 @@
+.padding-vertical{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.padding-left{
+    padding-left: 1em;
+}
+.app-footer{
+    background-color: #EEEFFF;
+    padding: 1.3em 1em 1.3em;
+    margin: 0;
+    margin-top: 0.2em;
+}
+.heart{
+    color: red;
+}
+.bulma{
+    color: #31CFAF;
+}
+.froala{
+    color: #0098F7;
+}
